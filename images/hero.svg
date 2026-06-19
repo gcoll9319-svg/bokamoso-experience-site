@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Illustration of a red and blue go-kart with a checkered racing flag</title>
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF4757"/>
+      <stop offset="1" stop-color="#E11D2A"/>
+    </linearGradient>
+    <linearGradient id="noseGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2E6CFF"/>
+      <stop offset="1" stop-color="#0B4FDE"/>
+    </linearGradient>
+    <pattern id="checker" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#ffffff"/>
+      <rect width="7" height="7" fill="#101B33"/>
+      <rect x="7" y="7" width="7" height="7" fill="#101B33"/>
+    </pattern>
+  </defs>
+
+  <ellipse cx="320" cy="438" rx="270" ry="18" fill="#0A1228" opacity="0.18"/>
+
+  <!-- motion lines -->
+  <rect x="18" y="296" width="80" height="10" rx="5" fill="#ffffff" opacity="0.45"/>
+  <rect x="34" y="326" width="64" height="10" rx="5" fill="#ffffff" opacity="0.3"/>
+  <rect x="50" y="356" width="48" height="10" rx="5" fill="#ffffff" opacity="0.18"/>
+
+  <!-- rear wheel -->
+  <circle cx="168" cy="382" r="56" fill="#101B33"/>
+  <circle cx="168" cy="382" r="24" fill="#8FA3C8"/>
+  <circle cx="168" cy="382" r="6" fill="#101B33"/>
+
+  <!-- chassis -->
+  <rect x="118" y="304" width="400" height="68" rx="32" fill="url(#bodyGrad)"/>
+  <rect x="150" y="320" width="280" height="14" rx="7" fill="#ffffff" opacity="0.35"/>
+
+  <!-- nose cone -->
+  <path d="M478 308 h70 a26 26 0 0 1 26 26 v16 a26 26 0 0 1 -26 26 h-70 z" fill="url(#noseGrad)"/>
+
+  <!-- seat back / roll hoop -->
+  <rect x="186" y="232" width="64" height="92" rx="24" fill="#101B33"/>
+  <path d="M200,252 Q228,182 276,250" stroke="#101B33" stroke-width="16" fill="none" stroke-linecap="round"/>
+
+  <!-- driver -->
+  <rect x="206" y="276" width="68" height="54" rx="22" fill="#101B33"/>
+  <circle cx="234" cy="252" r="30" fill="#ffffff" stroke="#101B33" stroke-width="6"/>
+  <path d="M210,244 a26 26 0 0 1 48 -10" fill="none" stroke="#0B4FDE" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- steering wheel -->
+  <circle cx="318" cy="296" r="22" fill="none" stroke="#ffffff" stroke-width="7"/>
+  <line x1="318" y1="318" x2="318" y2="338" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- front wheel -->
+  <circle cx="478" cy="382" r="56" fill="#101B33"/>
+  <circle cx="478" cy="382" r="24" fill="#8FA3C8"/>
+  <circle cx="478" cy="382" r="6" fill="#101B33"/>
+
+  <!-- checkered flag -->
+  <line x1="556" y1="36" x2="556" y2="232" stroke="#101B33" stroke-width="6" stroke-linecap="round"/>
+  <path d="M556 40 L632 64 L556 88 Z" fill="url(#checker)"/>
+</svg>

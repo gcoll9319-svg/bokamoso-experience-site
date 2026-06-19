@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="g4Title">
+  <title id="g4Title">Placeholder photo: school visit day</title>
+  <defs>
+    <linearGradient id="g4" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101B33"/>
+      <stop offset="1" stop-color="#0B4FDE"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#g4)"/>
+  <g fill="#ffffff">
+    <polygon points="200,78 250,118 150,118"/>
+    <rect x="160" y="118" width="80" height="56" />
+    <rect x="186" y="138" width="28" height="36" fill="#E11D2A"/>
+  </g>
+  <text x="200" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">School Visit Days</text>
+  <text x="200" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" opacity="0.75">Photo coming soon</text>
+</svg>
